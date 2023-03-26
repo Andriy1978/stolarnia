@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(0.26turn, #3f87a6, #ebf8e1, #90f63c);          
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 30px;
+    color: white;
+}
+
+img{
+    max-width: 100%; 
+
+}
+/* ############# */
+.zakres{
+    display: inline-block;
+    border-style: solid;
+    padding: 20px;
+}
+.esc{
+    text-align: center;
+    padding: 30px;
+}
+.btn_my{
+    margin: 10px;
+    border-width: 3px;
+    border-radius: 6px;
+    border-color: red;
+    padding: 5px;
+    width: 100px;
+    
+}
+.btn_my:hover{
+    border-color: aqua;
+    background-color: rgb(222, 211, 211);
+    font-weight: bold;
+    color: red;
+}
+.entry{
+    width: 100px;
+}
