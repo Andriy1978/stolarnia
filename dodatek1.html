@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrzydla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style_1.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="resors/images.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dodatek.html">Ramy - 1X</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="dodatek1.html">Ramy - 2X</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dodatek2.html">Desingo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <div class=".container-fluid m-5">
+          <h2 class="nam-pr">Program dla okucia drewnianych ram - 2X</h2>
+          <div class="box-app">
+            <div class="row">
+              <div class="col">
+                <h3 id="dot" style="padding-top: 60px;">Docisk</h3>
+                <p id="zas3" style="color:rgb(242, 53, 56);font-weight: bold;"></p>
+                <p id="zas2" style="color:rgb(251, 23, 23);font-weight: bold;"></p>
+                <p id="zas1" style="color:rgb(252, 40, 40);font-weight: bold;"></p>
+                <p id="nsp" style="color: rgb(246, 26, 26);font-weight: bold;"></p>
+              </div>
+              <div class="col">
+                <h3 id="typ">Gora</h3>
+                <h2 id="gora" style="text-align: center; height: 20px;color: blue;font-weight: bold;"></h2>
+                <br>
+                <div style="text-align: center;">
+                  <input type="number" placeholder="Szerokosc" id="entry-width">
+                  <input type="number" placeholder="Wysokosc" id="entry-height">
+                  <div>
+                    <button type="button" class="btn btn-primary" onclick="erc_one()">Er1</button>
+                    <button type="button" class="btn btn-primary" onclick="erc_two()">Er2</button>
+                    <button type="button" class="btn btn-primary" onclick="standart()">Standart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h3 style="padding-top: 60px;">Plecy</h3>
+                <p id="pl1" style="color: red;font-weight: bold;"></p>
+                <p id="pl2" style="color: red;font-weight: bold;"></p>
+                <p id="pl3" style="color: red;font-weight: bold;"></p>
+                <p id="pl4" style="color: red;font-weight: bold;"></p>
+              </div>
+            </div>
+          </div>
+  
+          <h2 style="text-align: center; height: 50px; color: #f3e80b;font-weight: bold;" id="dol"></h2>
+        </div>
+  
+        
+      </section>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="files/file_1.js"></script>
+</body>
+
+</html>
