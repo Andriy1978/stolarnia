@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(145deg, #d84ce8 0%, #abf572 100%);
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 30px;
+    color: white;
+}
+
+img{
+    max-width: 100%; 
+
+}
+.nam-pr{
+    text-align: center;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(103, 14, 133);
+}
+.zas-gora-plecy{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+   font-size: 30px;
+   text-align: center; 
+}
+h3{
+    text-align: center;
+}
+.btn{
+    display: flexbox;
+    margin: 30px;
+    align-items: center;
+}
+input{
+    width: 200px;
+    margin: 15px;
+}
+
+.box-app{
+    height:100% ;
+}
+@media(max-width:900px){
+    .box{
+        height:800px;
+    }
+    .box-app{
+        max-height: 100%;
+    }
+    
+}
+.my-row{
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+}
