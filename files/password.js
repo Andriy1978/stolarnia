@@ -1,4 +1,4 @@
-let haslo = 'Jacek';      
+let haslo = 'pati';      
 
 function test(params) {
     let name = document.getElementById('input-name').value;
